@@ -1,14 +1,78 @@
 body {
   display: flex;
-  min-height: 100vh;
+  justify-content: center;
+  align-content: center;
   flex-direction: column;
+  min-height: 130vh;
+  background-color: black;
+  /* background */
+  background-image: url(finch.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover ;
+  font-family: sans-serif;
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav-wrapper ul.right {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.nav-wrapper ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-wrapper ul.right li {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+  
+  
+}
+
+.nav-wrapper ul.right li a {
+  text-decoration: none;
+  list-style: none;
+  color: #ffe8c8;
+  margin-top: -40px;
 }
 
 main {
-  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #ffe8c8;
 }
 
 footer.page-footer {
-  padding-top: 0;
-  text-align: right;
+  font-size: 15px;
+  text-align: center;
+  margin-top: auto;
+  color: #ffe8c8;
 }
+
+
+.left-brand-logo {
+  font-family:monospace ;
+  display: flex;
+  justify-content: left;
+  font-size: 60px;
+  text-align: left;
+  text-decoration: none;
+  list-style: none;
+  padding-left: 20px;
+  color: #ffe8c8;
+}
+
+.left-brand-logo:visited {
+  color: #ffe8c8;
+}
+
